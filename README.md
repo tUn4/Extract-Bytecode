@@ -1,5 +1,5 @@
 #python extract_bytecode.py file_name.txt
-Extract bytecode and format shellcode in Linux
+Extract bytecode and format shellcode that output from objdump -d in Linux
 
 Run extract_bytecode.py to extract byte code from output text file
 
