@@ -3,6 +3,7 @@
 Extract bytecode and format shellcode in Linux
 
 Run extract_bytecode.py to extract byte code from output text file
+
 ex1:
 nasm -f elf sh1.asm
 ld -o sh1 sh1.o
