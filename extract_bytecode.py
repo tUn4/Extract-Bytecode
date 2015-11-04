@@ -47,7 +47,7 @@ def format(sh):
 
 if __name__ == "__main__":
     if(len(sys.argv) < 2):
-        print "Vui long nhap tham so thu nhat la ten file.\nUsage: \n\tpython dump_shell <ten_file>.txt\n\nex: \tpython dump_shell shellcode.txt"
+        print "Input agrv[1] is file name, please.\nUsage: \n\tpython extract_bytecode.py <ten_file>.txt\n\nex: \tpython extract_bytecode.py shellcode.txt"
         sys.exit(-1)
     print format(extract(sys.argv[1]))
     if(count > 0):
